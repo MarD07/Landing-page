@@ -1,6 +1,21 @@
+:root {
+--background: #fff;
+--primary: #000000;
+--secondary: #0779f5;
+--tertiary: #aac5fc;
+--btn-bg: #62a4fb;
+--nav-bg: #deecfcef
+
+  /* Textos */
+--text-black: #000000;
+}
+
+
 body{
     font-family: sans-serif;
     margin: 0;
+    max-width: 1400px;
+    padding-left: 20px;
 }
 
 a{
@@ -47,7 +62,7 @@ main{
     align-items: center;
 }
 
-.container h1{
+.container h1 {
     font-size: 45px;
     min-width: 500px;
     font-weight: 600;
@@ -77,7 +92,7 @@ main{
     border: 1px solid;
 }
 
-.hero-info img{
+.hero-info img {
     display: flex;
 }
 
@@ -87,4 +102,54 @@ main{
     font-size: 20px;
     color: #4777b6;
     padding: 60px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info-cards-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+}
+
+#contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: #000000;
+    padding: 60px 0px;
+}
+
+.cont h2 {
+    text-align: center;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-icons {
+    display: flex;
+    gap: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
