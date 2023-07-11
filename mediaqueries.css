@@ -24,6 +24,12 @@
     }
 }
 
+@media (max-width:768px) {
+    #hero {
+        width: 576px;
+    }
+}
+
 @media (max-width:576px) {
     #hero {
         width: 550px;
